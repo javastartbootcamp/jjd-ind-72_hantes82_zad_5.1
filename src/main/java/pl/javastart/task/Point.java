@@ -9,19 +9,11 @@ public class Point {
         this.y = y;
     }
 
-    public int getX() {
-        return x;
+    public String toString() {
+        return "Punkt + x + y ";
     }
 
-    void setX(int x) {
-        this.x = x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
-    void setY(int y) {
-        this.y = y;
+    public String quarterDisplay(String quarter) {
+        return " leży w " + quarter + " ćwiartce układu współrzędnych";
     }
 }
