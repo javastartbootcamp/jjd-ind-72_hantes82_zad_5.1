@@ -10,10 +10,6 @@ public class Point {
     }
 
     public String toString() {
-        return "Punkt + x + y ";
-    }
-
-    public String quarterDisplay(String quarter) {
-        return " leży w " + quarter + " ćwiartce układu współrzędnych";
+        return "Punkt (" + x + ", " + y + ") ";
     }
 }
